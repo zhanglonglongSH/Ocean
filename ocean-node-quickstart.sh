@@ -53,7 +53,7 @@ validate_ip_or_fqdn() {
 }
 
 
-read -p "Do you have your private key for running the Ocean Node [ y/n ]: " has_key
+#read -p "Do you have your private key for running the Ocean Node [ y/n ]: " has_key
 
 #read -p "Enter your private key: " PRIVATE_KEY
 validate_hex "$PRIVATE_KEY"
